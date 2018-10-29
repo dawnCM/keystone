@@ -1,0 +1,886 @@
+2018-08-15 13:06:28 Error: [MissingViewException] View file "Api/phpinfo.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Api/phpinfo.ctp',
+)
+Request URL: /phpinfo
+Stack Trace:
+#0 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/View/View.php(470): View->_getViewFileName('Api/phpinfo')
+#1 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#4 /var/www/html/cakephp/clickmedia/keystone/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-08-20 07:51:13 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Connection timed out',
+  'enabled' => true,
+)
+Request URL: /processCrmLead
+Stack Trace:
+#0 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/ConnectionManager.php(106): DboSource->__construct(Array)
+#2 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3667): Model->setSource('affiliates')
+#5 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3038): Model->getDataSource()
+#6 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3010): Model->_readDataSource('first', Array)
+#7 /var/www/html/cakephp/clickmedia/keystone/app/Model/Api/Api.php(51): Model->find('first', Array)
+#8 /var/www/html/cakephp/clickmedia/keystone/app/Controller/ApiController.php(108): Api->apiauthenticate(Array)
+#9 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Event/CakeEventManager.php(243): ApiController->beforeFilter(Object(CakeEvent))
+#10 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#12 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /var/www/html/cakephp/clickmedia/keystone/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2018-08-20 07:51:14 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Connection timed out',
+  'enabled' => true,
+)
+Request URL: /processCrmLead
+Stack Trace:
+#0 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/ConnectionManager.php(106): DboSource->__construct(Array)
+#2 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3667): Model->setSource('affiliates')
+#5 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3038): Model->getDataSource()
+#6 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3010): Model->_readDataSource('first', Array)
+#7 /var/www/html/cakephp/clickmedia/keystone/app/Model/Api/Api.php(51): Model->find('first', Array)
+#8 /var/www/html/cakephp/clickmedia/keystone/app/Controller/ApiController.php(108): Api->apiauthenticate(Array)
+#9 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Event/CakeEventManager.php(243): ApiController->beforeFilter(Object(CakeEvent))
+#10 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#12 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /var/www/html/cakephp/clickmedia/keystone/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2018-08-20 07:51:43 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Connection timed out',
+  'enabled' => true,
+)
+Request URL: /processCrmLead
+Stack Trace:
+#0 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/ConnectionManager.php(106): DboSource->__construct(Array)
+#2 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3667): Model->setSource('affiliates')
+#5 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3038): Model->getDataSource()
+#6 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3010): Model->_readDataSource('first', Array)
+#7 /var/www/html/cakephp/clickmedia/keystone/app/Model/Api/Api.php(51): Model->find('first', Array)
+#8 /var/www/html/cakephp/clickmedia/keystone/app/Controller/ApiController.php(108): Api->apiauthenticate(Array)
+#9 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Event/CakeEventManager.php(243): ApiController->beforeFilter(Object(CakeEvent))
+#10 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#12 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /var/www/html/cakephp/clickmedia/keystone/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2018-08-20 07:52:59 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Connection timed out',
+  'enabled' => true,
+)
+Request URL: /processCrmLead
+Stack Trace:
+#0 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/ConnectionManager.php(106): DboSource->__construct(Array)
+#2 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3667): Model->setSource('affiliates')
+#5 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3038): Model->getDataSource()
+#6 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3010): Model->_readDataSource('first', Array)
+#7 /var/www/html/cakephp/clickmedia/keystone/app/Model/Api/Api.php(51): Model->find('first', Array)
+#8 /var/www/html/cakephp/clickmedia/keystone/app/Controller/ApiController.php(108): Api->apiauthenticate(Array)
+#9 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Event/CakeEventManager.php(243): ApiController->beforeFilter(Object(CakeEvent))
+#10 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#12 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /var/www/html/cakephp/clickmedia/keystone/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2018-08-20 07:53:30 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Connection timed out',
+  'enabled' => true,
+)
+Request URL: /processCrmLead
+Stack Trace:
+#0 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/ConnectionManager.php(106): DboSource->__construct(Array)
+#2 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3667): Model->setSource('affiliates')
+#5 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3038): Model->getDataSource()
+#6 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3010): Model->_readDataSource('first', Array)
+#7 /var/www/html/cakephp/clickmedia/keystone/app/Model/Api/Api.php(51): Model->find('first', Array)
+#8 /var/www/html/cakephp/clickmedia/keystone/app/Controller/ApiController.php(108): Api->apiauthenticate(Array)
+#9 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Event/CakeEventManager.php(243): ApiController->beforeFilter(Object(CakeEvent))
+#10 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#12 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /var/www/html/cakephp/clickmedia/keystone/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2018-08-20 07:54:01 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Connection timed out',
+  'enabled' => true,
+)
+Request URL: /processCrmLead
+Stack Trace:
+#0 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/ConnectionManager.php(106): DboSource->__construct(Array)
+#2 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3667): Model->setSource('affiliates')
+#5 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3038): Model->getDataSource()
+#6 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3010): Model->_readDataSource('first', Array)
+#7 /var/www/html/cakephp/clickmedia/keystone/app/Model/Api/Api.php(51): Model->find('first', Array)
+#8 /var/www/html/cakephp/clickmedia/keystone/app/Controller/ApiController.php(108): Api->apiauthenticate(Array)
+#9 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Event/CakeEventManager.php(243): ApiController->beforeFilter(Object(CakeEvent))
+#10 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#12 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /var/www/html/cakephp/clickmedia/keystone/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2018-08-20 07:54:25 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Connection timed out',
+  'enabled' => true,
+)
+Request URL: /processCrmLead
+Stack Trace:
+#0 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/ConnectionManager.php(106): DboSource->__construct(Array)
+#2 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3667): Model->setSource('affiliates')
+#5 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3038): Model->getDataSource()
+#6 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3010): Model->_readDataSource('first', Array)
+#7 /var/www/html/cakephp/clickmedia/keystone/app/Model/Api/Api.php(51): Model->find('first', Array)
+#8 /var/www/html/cakephp/clickmedia/keystone/app/Controller/ApiController.php(108): Api->apiauthenticate(Array)
+#9 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Event/CakeEventManager.php(243): ApiController->beforeFilter(Object(CakeEvent))
+#10 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#12 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /var/www/html/cakephp/clickmedia/keystone/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2018-08-20 07:58:13 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Connection timed out',
+  'enabled' => true,
+)
+Request URL: /processCrmLead
+Stack Trace:
+#0 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/ConnectionManager.php(106): DboSource->__construct(Array)
+#2 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3667): Model->setSource('affiliates')
+#5 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3038): Model->getDataSource()
+#6 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3010): Model->_readDataSource('first', Array)
+#7 /var/www/html/cakephp/clickmedia/keystone/app/Model/Api/Api.php(51): Model->find('first', Array)
+#8 /var/www/html/cakephp/clickmedia/keystone/app/Controller/ApiController.php(108): Api->apiauthenticate(Array)
+#9 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Event/CakeEventManager.php(243): ApiController->beforeFilter(Object(CakeEvent))
+#10 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#12 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /var/www/html/cakephp/clickmedia/keystone/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2018-08-20 07:59:14 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Connection timed out',
+  'enabled' => true,
+)
+Request URL: /processCrmLead
+Stack Trace:
+#0 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/ConnectionManager.php(106): DboSource->__construct(Array)
+#2 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3667): Model->setSource('affiliates')
+#5 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3038): Model->getDataSource()
+#6 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3010): Model->_readDataSource('first', Array)
+#7 /var/www/html/cakephp/clickmedia/keystone/app/Model/Api/Api.php(51): Model->find('first', Array)
+#8 /var/www/html/cakephp/clickmedia/keystone/app/Controller/ApiController.php(108): Api->apiauthenticate(Array)
+#9 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Event/CakeEventManager.php(243): ApiController->beforeFilter(Object(CakeEvent))
+#10 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#12 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /var/www/html/cakephp/clickmedia/keystone/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2018-08-20 08:03:30 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Connection timed out',
+  'enabled' => true,
+)
+Request URL: /processCrmLead
+Stack Trace:
+#0 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/ConnectionManager.php(106): DboSource->__construct(Array)
+#2 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3667): Model->setSource('affiliates')
+#5 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3038): Model->getDataSource()
+#6 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3010): Model->_readDataSource('first', Array)
+#7 /var/www/html/cakephp/clickmedia/keystone/app/Model/Api/Api.php(51): Model->find('first', Array)
+#8 /var/www/html/cakephp/clickmedia/keystone/app/Controller/ApiController.php(108): Api->apiauthenticate(Array)
+#9 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Event/CakeEventManager.php(243): ApiController->beforeFilter(Object(CakeEvent))
+#10 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#12 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /var/www/html/cakephp/clickmedia/keystone/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2018-08-20 08:04:28 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Connection timed out',
+  'enabled' => true,
+)
+Request URL: /processCrmLead
+Stack Trace:
+#0 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/ConnectionManager.php(106): DboSource->__construct(Array)
+#2 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3667): Model->setSource('affiliates')
+#5 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3038): Model->getDataSource()
+#6 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3010): Model->_readDataSource('first', Array)
+#7 /var/www/html/cakephp/clickmedia/keystone/app/Model/Api/Api.php(51): Model->find('first', Array)
+#8 /var/www/html/cakephp/clickmedia/keystone/app/Controller/ApiController.php(108): Api->apiauthenticate(Array)
+#9 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Event/CakeEventManager.php(243): ApiController->beforeFilter(Object(CakeEvent))
+#10 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#12 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /var/www/html/cakephp/clickmedia/keystone/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2018-08-20 08:13:12 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Connection timed out',
+  'enabled' => true,
+)
+Request URL: /processCrmLead
+Stack Trace:
+#0 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/ConnectionManager.php(106): DboSource->__construct(Array)
+#2 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3667): Model->setSource('affiliates')
+#5 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3038): Model->getDataSource()
+#6 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3010): Model->_readDataSource('first', Array)
+#7 /var/www/html/cakephp/clickmedia/keystone/app/Model/Api/Api.php(51): Model->find('first', Array)
+#8 /var/www/html/cakephp/clickmedia/keystone/app/Controller/ApiController.php(108): Api->apiauthenticate(Array)
+#9 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Event/CakeEventManager.php(243): ApiController->beforeFilter(Object(CakeEvent))
+#10 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#12 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /var/www/html/cakephp/clickmedia/keystone/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2018-08-20 08:14:03 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Connection timed out',
+  'enabled' => true,
+)
+Request URL: /processCrmLead
+Stack Trace:
+#0 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/ConnectionManager.php(106): DboSource->__construct(Array)
+#2 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3667): Model->setSource('affiliates')
+#5 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3038): Model->getDataSource()
+#6 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3010): Model->_readDataSource('first', Array)
+#7 /var/www/html/cakephp/clickmedia/keystone/app/Model/Api/Api.php(51): Model->find('first', Array)
+#8 /var/www/html/cakephp/clickmedia/keystone/app/Controller/ApiController.php(108): Api->apiauthenticate(Array)
+#9 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Event/CakeEventManager.php(243): ApiController->beforeFilter(Object(CakeEvent))
+#10 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#12 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /var/www/html/cakephp/clickmedia/keystone/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2018-10-05 05:49:49 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Connection timed out',
+  'enabled' => true,
+)
+Request URL: /processCrmLead
+Stack Trace:
+#0 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/ConnectionManager.php(106): DboSource->__construct(Array)
+#2 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3667): Model->setSource('affiliates')
+#5 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3038): Model->getDataSource()
+#6 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3010): Model->_readDataSource('first', Array)
+#7 /var/www/html/cakephp/clickmedia/keystone/app/Model/Api/Api.php(51): Model->find('first', Array)
+#8 /var/www/html/cakephp/clickmedia/keystone/app/Controller/ApiController.php(108): Api->apiauthenticate(Array)
+#9 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Event/CakeEventManager.php(243): ApiController->beforeFilter(Object(CakeEvent))
+#10 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#12 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /var/www/html/cakephp/clickmedia/keystone/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2018-10-05 05:52:11 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Connection timed out',
+  'enabled' => true,
+)
+Request URL: /processCrmLead
+Stack Trace:
+#0 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/ConnectionManager.php(106): DboSource->__construct(Array)
+#2 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3667): Model->setSource('affiliates')
+#5 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3038): Model->getDataSource()
+#6 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3010): Model->_readDataSource('first', Array)
+#7 /var/www/html/cakephp/clickmedia/keystone/app/Model/Api/Api.php(51): Model->find('first', Array)
+#8 /var/www/html/cakephp/clickmedia/keystone/app/Controller/ApiController.php(108): Api->apiauthenticate(Array)
+#9 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Event/CakeEventManager.php(243): ApiController->beforeFilter(Object(CakeEvent))
+#10 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#12 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /var/www/html/cakephp/clickmedia/keystone/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2018-10-05 06:07:42 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Connection timed out',
+  'enabled' => true,
+)
+Request URL: /processCrmLead
+Stack Trace:
+#0 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/ConnectionManager.php(106): DboSource->__construct(Array)
+#2 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3667): Model->setSource('affiliates')
+#5 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3038): Model->getDataSource()
+#6 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3010): Model->_readDataSource('first', Array)
+#7 /var/www/html/cakephp/clickmedia/keystone/app/Model/Api/Api.php(51): Model->find('first', Array)
+#8 /var/www/html/cakephp/clickmedia/keystone/app/Controller/ApiController.php(108): Api->apiauthenticate(Array)
+#9 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Event/CakeEventManager.php(243): ApiController->beforeFilter(Object(CakeEvent))
+#10 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#12 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /var/www/html/cakephp/clickmedia/keystone/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2018-10-05 06:08:13 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Connection timed out',
+  'enabled' => true,
+)
+Request URL: /processCrmLead
+Stack Trace:
+#0 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/ConnectionManager.php(106): DboSource->__construct(Array)
+#2 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3667): Model->setSource('affiliates')
+#5 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3038): Model->getDataSource()
+#6 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3010): Model->_readDataSource('first', Array)
+#7 /var/www/html/cakephp/clickmedia/keystone/app/Model/Api/Api.php(51): Model->find('first', Array)
+#8 /var/www/html/cakephp/clickmedia/keystone/app/Controller/ApiController.php(108): Api->apiauthenticate(Array)
+#9 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Event/CakeEventManager.php(243): ApiController->beforeFilter(Object(CakeEvent))
+#10 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#12 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /var/www/html/cakephp/clickmedia/keystone/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2018-10-05 06:08:46 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Connection timed out',
+  'enabled' => true,
+)
+Request URL: /processCrmLead
+Stack Trace:
+#0 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/ConnectionManager.php(106): DboSource->__construct(Array)
+#2 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3667): Model->setSource('affiliates')
+#5 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3038): Model->getDataSource()
+#6 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3010): Model->_readDataSource('first', Array)
+#7 /var/www/html/cakephp/clickmedia/keystone/app/Model/Api/Api.php(51): Model->find('first', Array)
+#8 /var/www/html/cakephp/clickmedia/keystone/app/Controller/ApiController.php(108): Api->apiauthenticate(Array)
+#9 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Event/CakeEventManager.php(243): ApiController->beforeFilter(Object(CakeEvent))
+#10 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#12 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /var/www/html/cakephp/clickmedia/keystone/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2018-10-05 06:09:20 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Connection timed out',
+  'enabled' => true,
+)
+Request URL: /processCrmLead
+Stack Trace:
+#0 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/ConnectionManager.php(106): DboSource->__construct(Array)
+#2 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3667): Model->setSource('affiliates')
+#5 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3038): Model->getDataSource()
+#6 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3010): Model->_readDataSource('first', Array)
+#7 /var/www/html/cakephp/clickmedia/keystone/app/Model/Api/Api.php(51): Model->find('first', Array)
+#8 /var/www/html/cakephp/clickmedia/keystone/app/Controller/ApiController.php(108): Api->apiauthenticate(Array)
+#9 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Event/CakeEventManager.php(243): ApiController->beforeFilter(Object(CakeEvent))
+#10 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#12 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /var/www/html/cakephp/clickmedia/keystone/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2018-10-05 06:09:52 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Connection timed out',
+  'enabled' => true,
+)
+Request URL: /processCrmLead
+Stack Trace:
+#0 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/ConnectionManager.php(106): DboSource->__construct(Array)
+#2 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3667): Model->setSource('affiliates')
+#5 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3038): Model->getDataSource()
+#6 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3010): Model->_readDataSource('first', Array)
+#7 /var/www/html/cakephp/clickmedia/keystone/app/Model/Api/Api.php(51): Model->find('first', Array)
+#8 /var/www/html/cakephp/clickmedia/keystone/app/Controller/ApiController.php(108): Api->apiauthenticate(Array)
+#9 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Event/CakeEventManager.php(243): ApiController->beforeFilter(Object(CakeEvent))
+#10 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#12 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /var/www/html/cakephp/clickmedia/keystone/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2018-10-05 06:10:24 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Connection timed out',
+  'enabled' => true,
+)
+Request URL: /processCrmLead
+Stack Trace:
+#0 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/ConnectionManager.php(106): DboSource->__construct(Array)
+#2 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3667): Model->setSource('affiliates')
+#5 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3038): Model->getDataSource()
+#6 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3010): Model->_readDataSource('first', Array)
+#7 /var/www/html/cakephp/clickmedia/keystone/app/Model/Api/Api.php(51): Model->find('first', Array)
+#8 /var/www/html/cakephp/clickmedia/keystone/app/Controller/ApiController.php(108): Api->apiauthenticate(Array)
+#9 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Event/CakeEventManager.php(243): ApiController->beforeFilter(Object(CakeEvent))
+#10 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#12 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /var/www/html/cakephp/clickmedia/keystone/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2018-10-05 06:10:42 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Connection timed out',
+  'enabled' => true,
+)
+Request URL: /processCrmLead
+Stack Trace:
+#0 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/ConnectionManager.php(106): DboSource->__construct(Array)
+#2 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3667): Model->setSource('affiliates')
+#5 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3038): Model->getDataSource()
+#6 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3010): Model->_readDataSource('first', Array)
+#7 /var/www/html/cakephp/clickmedia/keystone/app/Model/Api/Api.php(51): Model->find('first', Array)
+#8 /var/www/html/cakephp/clickmedia/keystone/app/Controller/ApiController.php(108): Api->apiauthenticate(Array)
+#9 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Event/CakeEventManager.php(243): ApiController->beforeFilter(Object(CakeEvent))
+#10 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#12 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /var/www/html/cakephp/clickmedia/keystone/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2018-10-05 06:11:12 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Connection timed out',
+  'enabled' => true,
+)
+Request URL: /processCrmLead
+Stack Trace:
+#0 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/ConnectionManager.php(106): DboSource->__construct(Array)
+#2 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3667): Model->setSource('affiliates')
+#5 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3038): Model->getDataSource()
+#6 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3010): Model->_readDataSource('first', Array)
+#7 /var/www/html/cakephp/clickmedia/keystone/app/Model/Api/Api.php(51): Model->find('first', Array)
+#8 /var/www/html/cakephp/clickmedia/keystone/app/Controller/ApiController.php(108): Api->apiauthenticate(Array)
+#9 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Event/CakeEventManager.php(243): ApiController->beforeFilter(Object(CakeEvent))
+#10 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#12 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /var/www/html/cakephp/clickmedia/keystone/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2018-10-05 06:11:42 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Connection timed out',
+  'enabled' => true,
+)
+Request URL: /processCrmLead
+Stack Trace:
+#0 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/ConnectionManager.php(106): DboSource->__construct(Array)
+#2 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3667): Model->setSource('affiliates')
+#5 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3038): Model->getDataSource()
+#6 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3010): Model->_readDataSource('first', Array)
+#7 /var/www/html/cakephp/clickmedia/keystone/app/Model/Api/Api.php(51): Model->find('first', Array)
+#8 /var/www/html/cakephp/clickmedia/keystone/app/Controller/ApiController.php(108): Api->apiauthenticate(Array)
+#9 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Event/CakeEventManager.php(243): ApiController->beforeFilter(Object(CakeEvent))
+#10 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#12 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /var/www/html/cakephp/clickmedia/keystone/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2018-10-05 06:12:10 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Connection timed out',
+  'enabled' => true,
+)
+Request URL: /processCrmLead
+Stack Trace:
+#0 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/ConnectionManager.php(106): DboSource->__construct(Array)
+#2 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3667): Model->setSource('affiliates')
+#5 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3038): Model->getDataSource()
+#6 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3010): Model->_readDataSource('first', Array)
+#7 /var/www/html/cakephp/clickmedia/keystone/app/Model/Api/Api.php(51): Model->find('first', Array)
+#8 /var/www/html/cakephp/clickmedia/keystone/app/Controller/ApiController.php(108): Api->apiauthenticate(Array)
+#9 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Event/CakeEventManager.php(243): ApiController->beforeFilter(Object(CakeEvent))
+#10 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#12 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /var/www/html/cakephp/clickmedia/keystone/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2018-10-05 06:13:02 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Connection timed out',
+  'enabled' => true,
+)
+Request URL: /processCrmLead
+Stack Trace:
+#0 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/ConnectionManager.php(106): DboSource->__construct(Array)
+#2 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3667): Model->setSource('affiliates')
+#5 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3038): Model->getDataSource()
+#6 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3010): Model->_readDataSource('first', Array)
+#7 /var/www/html/cakephp/clickmedia/keystone/app/Model/Api/Api.php(51): Model->find('first', Array)
+#8 /var/www/html/cakephp/clickmedia/keystone/app/Controller/ApiController.php(108): Api->apiauthenticate(Array)
+#9 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Event/CakeEventManager.php(243): ApiController->beforeFilter(Object(CakeEvent))
+#10 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#12 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /var/www/html/cakephp/clickmedia/keystone/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2018-10-05 06:13:03 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Connection timed out',
+  'enabled' => true,
+)
+Request URL: /processCrmLead
+Stack Trace:
+#0 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/ConnectionManager.php(106): DboSource->__construct(Array)
+#2 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3667): Model->setSource('affiliates')
+#5 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3038): Model->getDataSource()
+#6 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3010): Model->_readDataSource('first', Array)
+#7 /var/www/html/cakephp/clickmedia/keystone/app/Model/Api/Api.php(51): Model->find('first', Array)
+#8 /var/www/html/cakephp/clickmedia/keystone/app/Controller/ApiController.php(108): Api->apiauthenticate(Array)
+#9 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Event/CakeEventManager.php(243): ApiController->beforeFilter(Object(CakeEvent))
+#10 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#12 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /var/www/html/cakephp/clickmedia/keystone/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2018-10-05 06:13:32 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Connection timed out',
+  'enabled' => true,
+)
+Request URL: /processCrmLead
+Stack Trace:
+#0 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/ConnectionManager.php(106): DboSource->__construct(Array)
+#2 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3667): Model->setSource('affiliates')
+#5 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3038): Model->getDataSource()
+#6 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3010): Model->_readDataSource('first', Array)
+#7 /var/www/html/cakephp/clickmedia/keystone/app/Model/Api/Api.php(51): Model->find('first', Array)
+#8 /var/www/html/cakephp/clickmedia/keystone/app/Controller/ApiController.php(108): Api->apiauthenticate(Array)
+#9 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Event/CakeEventManager.php(243): ApiController->beforeFilter(Object(CakeEvent))
+#10 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#12 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /var/www/html/cakephp/clickmedia/keystone/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2018-10-05 06:17:03 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Connection timed out',
+  'enabled' => true,
+)
+Request URL: /processCrmLead
+Stack Trace:
+#0 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/ConnectionManager.php(106): DboSource->__construct(Array)
+#2 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3667): Model->setSource('affiliates')
+#5 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3038): Model->getDataSource()
+#6 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3010): Model->_readDataSource('first', Array)
+#7 /var/www/html/cakephp/clickmedia/keystone/app/Model/Api/Api.php(51): Model->find('first', Array)
+#8 /var/www/html/cakephp/clickmedia/keystone/app/Controller/ApiController.php(108): Api->apiauthenticate(Array)
+#9 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Event/CakeEventManager.php(243): ApiController->beforeFilter(Object(CakeEvent))
+#10 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#12 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /var/www/html/cakephp/clickmedia/keystone/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2018-10-05 06:17:03 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Connection timed out',
+  'enabled' => true,
+)
+Request URL: /processCrmLead
+Stack Trace:
+#0 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/ConnectionManager.php(106): DboSource->__construct(Array)
+#2 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3667): Model->setSource('affiliates')
+#5 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3038): Model->getDataSource()
+#6 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3010): Model->_readDataSource('first', Array)
+#7 /var/www/html/cakephp/clickmedia/keystone/app/Model/Api/Api.php(51): Model->find('first', Array)
+#8 /var/www/html/cakephp/clickmedia/keystone/app/Controller/ApiController.php(108): Api->apiauthenticate(Array)
+#9 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Event/CakeEventManager.php(243): ApiController->beforeFilter(Object(CakeEvent))
+#10 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#12 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /var/www/html/cakephp/clickmedia/keystone/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2018-10-05 06:17:33 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Connection timed out',
+  'enabled' => true,
+)
+Request URL: /processCrmLead
+Stack Trace:
+#0 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/ConnectionManager.php(106): DboSource->__construct(Array)
+#2 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3667): Model->setSource('affiliates')
+#5 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3038): Model->getDataSource()
+#6 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3010): Model->_readDataSource('first', Array)
+#7 /var/www/html/cakephp/clickmedia/keystone/app/Model/Api/Api.php(51): Model->find('first', Array)
+#8 /var/www/html/cakephp/clickmedia/keystone/app/Controller/ApiController.php(108): Api->apiauthenticate(Array)
+#9 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Event/CakeEventManager.php(243): ApiController->beforeFilter(Object(CakeEvent))
+#10 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#12 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /var/www/html/cakephp/clickmedia/keystone/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2018-10-05 06:18:03 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Connection timed out',
+  'enabled' => true,
+)
+Request URL: /processCrmLead
+Stack Trace:
+#0 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/ConnectionManager.php(106): DboSource->__construct(Array)
+#2 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3667): Model->setSource('affiliates')
+#5 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3038): Model->getDataSource()
+#6 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3010): Model->_readDataSource('first', Array)
+#7 /var/www/html/cakephp/clickmedia/keystone/app/Model/Api/Api.php(51): Model->find('first', Array)
+#8 /var/www/html/cakephp/clickmedia/keystone/app/Controller/ApiController.php(108): Api->apiauthenticate(Array)
+#9 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Event/CakeEventManager.php(243): ApiController->beforeFilter(Object(CakeEvent))
+#10 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#12 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /var/www/html/cakephp/clickmedia/keystone/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2018-10-05 06:18:33 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Connection timed out',
+  'enabled' => true,
+)
+Request URL: /processCrmLead
+Stack Trace:
+#0 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/ConnectionManager.php(106): DboSource->__construct(Array)
+#2 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3667): Model->setSource('affiliates')
+#5 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3038): Model->getDataSource()
+#6 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3010): Model->_readDataSource('first', Array)
+#7 /var/www/html/cakephp/clickmedia/keystone/app/Model/Api/Api.php(51): Model->find('first', Array)
+#8 /var/www/html/cakephp/clickmedia/keystone/app/Controller/ApiController.php(108): Api->apiauthenticate(Array)
+#9 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Event/CakeEventManager.php(243): ApiController->beforeFilter(Object(CakeEvent))
+#10 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#12 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /var/www/html/cakephp/clickmedia/keystone/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2018-10-05 06:19:05 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Connection timed out',
+  'enabled' => true,
+)
+Request URL: /processCrmLead
+Stack Trace:
+#0 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/ConnectionManager.php(106): DboSource->__construct(Array)
+#2 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3667): Model->setSource('affiliates')
+#5 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3038): Model->getDataSource()
+#6 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3010): Model->_readDataSource('first', Array)
+#7 /var/www/html/cakephp/clickmedia/keystone/app/Model/Api/Api.php(51): Model->find('first', Array)
+#8 /var/www/html/cakephp/clickmedia/keystone/app/Controller/ApiController.php(108): Api->apiauthenticate(Array)
+#9 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Event/CakeEventManager.php(243): ApiController->beforeFilter(Object(CakeEvent))
+#10 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#12 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /var/www/html/cakephp/clickmedia/keystone/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2018-10-05 06:19:35 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Connection timed out',
+  'enabled' => true,
+)
+Request URL: /processCrmLead
+Stack Trace:
+#0 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/ConnectionManager.php(106): DboSource->__construct(Array)
+#2 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3667): Model->setSource('affiliates')
+#5 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3038): Model->getDataSource()
+#6 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3010): Model->_readDataSource('first', Array)
+#7 /var/www/html/cakephp/clickmedia/keystone/app/Model/Api/Api.php(51): Model->find('first', Array)
+#8 /var/www/html/cakephp/clickmedia/keystone/app/Controller/ApiController.php(108): Api->apiauthenticate(Array)
+#9 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Event/CakeEventManager.php(243): ApiController->beforeFilter(Object(CakeEvent))
+#10 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#12 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /var/www/html/cakephp/clickmedia/keystone/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2018-10-05 06:19:35 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Connection timed out',
+  'enabled' => true,
+)
+Request URL: /processCrmLead
+Stack Trace:
+#0 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/ConnectionManager.php(106): DboSource->__construct(Array)
+#2 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3667): Model->setSource('affiliates')
+#5 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3038): Model->getDataSource()
+#6 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3010): Model->_readDataSource('first', Array)
+#7 /var/www/html/cakephp/clickmedia/keystone/app/Model/Api/Api.php(51): Model->find('first', Array)
+#8 /var/www/html/cakephp/clickmedia/keystone/app/Controller/ApiController.php(108): Api->apiauthenticate(Array)
+#9 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Event/CakeEventManager.php(243): ApiController->beforeFilter(Object(CakeEvent))
+#10 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#12 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /var/www/html/cakephp/clickmedia/keystone/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2018-10-05 06:19:35 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Connection timed out',
+  'enabled' => true,
+)
+Request URL: /processCrmLead
+Stack Trace:
+#0 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/ConnectionManager.php(106): DboSource->__construct(Array)
+#2 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3667): Model->setSource('affiliates')
+#5 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3038): Model->getDataSource()
+#6 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3010): Model->_readDataSource('first', Array)
+#7 /var/www/html/cakephp/clickmedia/keystone/app/Model/Api/Api.php(51): Model->find('first', Array)
+#8 /var/www/html/cakephp/clickmedia/keystone/app/Controller/ApiController.php(108): Api->apiauthenticate(Array)
+#9 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Event/CakeEventManager.php(243): ApiController->beforeFilter(Object(CakeEvent))
+#10 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#12 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /var/www/html/cakephp/clickmedia/keystone/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2018-10-05 06:20:09 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Connection timed out',
+  'enabled' => true,
+)
+Request URL: /processCrmLead
+Stack Trace:
+#0 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Datasource/DboSource.php(269): Mysql->connect()
+#1 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/ConnectionManager.php(106): DboSource->__construct(Array)
+#2 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3640): ConnectionManager::getDataSource('default')
+#3 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3667): Model->setSource('affiliates')
+#5 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3038): Model->getDataSource()
+#6 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Model/Model.php(3010): Model->_readDataSource('first', Array)
+#7 /var/www/html/cakephp/clickmedia/keystone/app/Model/Api/Api.php(51): Model->find('first', Array)
+#8 /var/www/html/cakephp/clickmedia/keystone/app/Controller/ApiController.php(108): Api->apiauthenticate(Array)
+#9 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Event/CakeEventManager.php(243): ApiController->beforeFilter(Object(CakeEvent))
+#10 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Controller/Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#12 /var/www/html/cakephp/clickmedia/keystone/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApiController), Object(CakeRequest))
+#13 /var/www/html/cakephp/clickmedia/keystone/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}

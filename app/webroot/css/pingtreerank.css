@@ -1,0 +1,39 @@
+
+.trash{
+	background-color:red;
+}
+ .ui-drop-hover
+{
+    
+}
+
+table td{
+	line-height: 4;
+	text-align: center;
+}
+
+table th{
+	line-height: 6;
+	text-align: center;
+	color: #000000;
+	font-weight: bold;
+}
+
+.ui-sortable-helper {
+    display: table;
+    
+}
+
+.main_wrr{
+	background-color: #337AB7 !important;
+}
+
+.legend{
+	color: #000000;
+	font-weight: bold;
+		
+}
+
+.bold{
+	font-weight: bold;	
+}
